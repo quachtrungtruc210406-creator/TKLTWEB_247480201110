@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var arr=[1,2,3,4,5,6];
+        document.write('<br>');
+        alert(arr.length);
+        document.write(arr.join() + '<br>');
+        document.write(arr.join('+') + '<br>');
+        document.write('<br>');
+
+        arr.push(7);
+        document.write(arr.join() + '<br>');
+
+        arr.push(8,9);
+        document.write(arr.join() + '<br>');
+
+        arr.pop();
+        document.write('<br>');
+        document.write(arr.join() + '<br>');
+
+        arr.unshift(9)
+        document.write('<br>');
+        document.write(arr.join() + '<br>');
+
+        arr.shift();
+        document.write('<br>');
+        document.write(arr.join() + '<br>');
+        document.write('<br>');
+
+        document.write(arr.slice(3) + '<br>');//slice()
+
+        document.write('<br>');
+        document,write(arr.sort()+'<br>');//soft()
+
+        document.write('<br>');
+        document.write(arr.reverse()+'<br>');
+
+    </script>
+</body>
+</html>
